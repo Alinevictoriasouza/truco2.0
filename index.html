@@ -12,8 +12,68 @@
     </head>
     <body class="fullscreen">
         <div class="container">
-            <h1 class="title">Minha primeira PWA</h1>
-        </div>
+            <div class="vermelho">
+        
+              <div class="esquerdo">
+                <div class="equipe1">
+        
+                  <div class="box2">
+                    <input class="caixaaa" type="text" id="nome" name="nome" placeholder="Digite o nome da sua equipe" />
+        
+                    <button class="button" onclick="equipe1()">Confirmar</button>
+        
+                    <div class="card2">
+                      <h2 id="texto"></h2>
+                    </div>
+        
+                    <div class="vitorias">
+                      Vitórias: <p id="vitoria">0</p>
+                    </div>
+        
+                  </div>
+                </div>
+        
+                <div class="pontuacao">
+                  <p id="resultado">0</p>
+                </div>
+        
+                <button class="botao" type="button" onclick="calculaMaisUmPonto()">+1</button>
+                <button class="botao" type="button" onclick="calculaMaisTresPonto()">+3</button>
+                <button class="botao" type="button" onclick="calculaMaisSeisPonto()">+6</button>
+                <button class="botao" id="doze" type="button" onclick="calculaMaisDozePonto()">+12</button>
+                <div class="linha"></div>
+              </div>
+        
+              <div class="direito">
+                <div class="equipe2">
+                  <div class="box3">
+                    <input class="caixaaa" type="text" id="nome2" name="nome" placeholder="Digite o nome da sua equipe" />
+        
+                    <button class="button" onclick="equipe2()">Confirmar</button>
+        
+                    <div class="card2">
+                      <h2 id="texto2"></h2>
+                    </div>
+        
+                    <div class="vitorias2">
+                      Vitórias: <p id="vitoria2">0</p>
+                    </div>
+        
+                  </div>
+                </div>
+        
+                <div class="pontuacao2">
+                  <p id="resultado2">0</p>
+                </div>
+        
+                <button class="botao2" type="button" onclick="calculaMaisUmPontos()">+1</button>
+                <button class="botao2" type="button" onclick="calculaMaisTresPontos()">+3</button>
+                <button class="botao2" type="button" onclick="calculaMaisSeisPontos()">+6</button>
+                <button class="botao2" type="button" onclick="calculaMaisDozePontos()">+12</button>
+              </div>
+        
+            </div>
+          </div>
         <script src="js/main.js"></script>
     </body>
 </html>
